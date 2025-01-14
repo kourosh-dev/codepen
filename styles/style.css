@@ -1,10 +1,24 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/static/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/static/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     background-color: var(--COLOR-0);
     color: white;
     overflow-x: hidden;
@@ -506,7 +520,6 @@ a:active {
     background-color: var(--COLOR-3);
     width: 80px;
     margin-left: 4px;
- 
 }
 
 main {
