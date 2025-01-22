@@ -17,3 +17,9 @@ btnOpenMenu.addEventListener('click', () => {
   }
 });
 
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 830) {
+    header.style.display = 'block';
+  }
+});
+
